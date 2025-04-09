@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/NodeEditor.dir/src/BlurNode.cpp.o.d"
   "CMakeFiles/NodeEditor.dir/src/BrightnessNode.cpp.o"
   "CMakeFiles/NodeEditor.dir/src/BrightnessNode.cpp.o.d"
+  "CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.o"
+  "CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.o.d"
   "CMakeFiles/NodeEditor.dir/src/ImageInputNode.cpp.o"
   "CMakeFiles/NodeEditor.dir/src/ImageInputNode.cpp.o.d"
   "CMakeFiles/NodeEditor.dir/src/ImageOutputNode.cpp.o"

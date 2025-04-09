@@ -359,6 +359,7 @@ CMakeFiles/NodeEditor.dir/src/main.cpp.o: \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
  /home/piyush/mixar-node-editor/include/ImageInputNode.h \
  /home/piyush/mixar-node-editor/include/Node.h \
+ /home/piyush/mixar-node-editor/include/GrayscaleNode.h \
  /home/piyush/mixar-node-editor/include/BlurNode.h \
  /home/piyush/mixar-node-editor/include/BrightnessNode.h \
  /home/piyush/mixar-node-editor/include/ImageOutputNode.h

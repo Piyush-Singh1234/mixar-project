@@ -1,21 +1,39 @@
 #include "BlurNode.h"
 #include "imgui.h"
-
-BlurNode::BlurNode(int _id) : Node(_id), ksize(3) {}
+#include "imnodes.h"
+#include <iostream>
 
 void BlurNode::render() {
+    ImNodes::BeginNode(id);
+    ImNodes::BeginNodeTitleBar();
     ImGui::Text("Blur Node");
-    ImGui::SliderInt("Kernel Size", &ksize, 1, 15);
-    if (ksize % 2 == 0) ksize += 1; // Ensure odd
+    ImNodes::EndNodeTitleBar();
+
+    // Input attribute
+    ImNodes::BeginInputAttribute(id * 10 + 1);
+    ImGui::Text("In");
+    ImNodes::EndInputAttribute();
+
+    // Blur control
+    ImGui::SliderInt("Kernel Size", &blurAmount, 1, 25);
+    if (blurAmount % 2 == 0) blurAmount++; // kernel must be odd
+
+    // Output attribute
+    ImNodes::BeginOutputAttribute(id * 10 + 2);
+    ImGui::Text("Out");
+    ImNodes::EndOutputAttribute();
+
+    ImNodes::EndNode();
 }
+
 
 cv::Mat BlurNode::process(const std::vector<cv::Mat>& inputs) {
-    if (inputs.empty() || inputs[0].empty()) {
-        std::cout << "BlurNode: No input image provided!\n";
-        return {};
-    }
+    if (inputs.empty() || inputs[0].empty()) return {};
 
     cv::Mat output;
-    cv::GaussianBlur(inputs[0], output, cv::Size(15, 15), 0);
+    int kernel = std::max(1, blurAmount | 1);  // ensure odd
+    std::cout << "[BlurNode] Applying GaussianBlur with kernel size: " << kernel << "\n";
+    cv::GaussianBlur(inputs[0], output, cv::Size(kernel, kernel), 0);
     return output;
 }
+

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/piyush/mixar-node-editor/imnodes/imnodes.cpp" "CMakeFiles/NodeEditor.dir/imnodes/imnodes.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/imnodes/imnodes.cpp.o.d"
   "/home/piyush/mixar-node-editor/src/BlurNode.cpp" "CMakeFiles/NodeEditor.dir/src/BlurNode.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/src/BlurNode.cpp.o.d"
   "/home/piyush/mixar-node-editor/src/BrightnessNode.cpp" "CMakeFiles/NodeEditor.dir/src/BrightnessNode.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/src/BrightnessNode.cpp.o.d"
+  "/home/piyush/mixar-node-editor/src/GrayscaleNode.cpp" "CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.o.d"
   "/home/piyush/mixar-node-editor/src/ImageInputNode.cpp" "CMakeFiles/NodeEditor.dir/src/ImageInputNode.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/src/ImageInputNode.cpp.o.d"
   "/home/piyush/mixar-node-editor/src/ImageOutputNode.cpp" "CMakeFiles/NodeEditor.dir/src/ImageOutputNode.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/src/ImageOutputNode.cpp.o.d"
   "/home/piyush/mixar-node-editor/src/NodeGraph.cpp" "CMakeFiles/NodeEditor.dir/src/NodeGraph.cpp.o" "gcc" "CMakeFiles/NodeEditor.dir/src/NodeGraph.cpp.o.d"

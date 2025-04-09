@@ -1,7 +1,7 @@
-CMakeFiles/NodeEditor.dir/src/BrightnessNode.cpp.o: \
- /home/piyush/mixar-node-editor/src/BrightnessNode.cpp \
+CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.o: \
+ /home/piyush/mixar-node-editor/src/GrayscaleNode.cpp \
  /usr/include/stdc-predef.h \
- /home/piyush/mixar-node-editor/include/BrightnessNode.h \
+ /home/piyush/mixar-node-editor/include/GrayscaleNode.h \
  /home/piyush/mixar-node-editor/include/Node.h \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \

@@ -355,4 +355,6 @@ CMakeFiles/NodeEditor.dir/src/ImageOutputNode.cpp.o: \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
  /home/piyush/mixar-node-editor/imgui/imgui.h \
- /home/piyush/mixar-node-editor/imgui/imconfig.h
+ /home/piyush/mixar-node-editor/imgui/imconfig.h \
+ /home/piyush/mixar-node-editor/imnodes/imnodes.h /usr/include/GL/gl.h \
+ /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h

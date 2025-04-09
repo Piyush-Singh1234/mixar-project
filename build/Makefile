@@ -369,6 +369,30 @@ src/BrightnessNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NodeEditor.dir/build.make CMakeFiles/NodeEditor.dir/src/BrightnessNode.cpp.s
 .PHONY : src/BrightnessNode.cpp.s
 
+src/GrayscaleNode.o: src/GrayscaleNode.cpp.o
+.PHONY : src/GrayscaleNode.o
+
+# target to build an object file
+src/GrayscaleNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NodeEditor.dir/build.make CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.o
+.PHONY : src/GrayscaleNode.cpp.o
+
+src/GrayscaleNode.i: src/GrayscaleNode.cpp.i
+.PHONY : src/GrayscaleNode.i
+
+# target to preprocess a source file
+src/GrayscaleNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NodeEditor.dir/build.make CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.i
+.PHONY : src/GrayscaleNode.cpp.i
+
+src/GrayscaleNode.s: src/GrayscaleNode.cpp.s
+.PHONY : src/GrayscaleNode.s
+
+# target to generate assembly for a file
+src/GrayscaleNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NodeEditor.dir/build.make CMakeFiles/NodeEditor.dir/src/GrayscaleNode.cpp.s
+.PHONY : src/GrayscaleNode.cpp.s
+
 src/ImageInputNode.o: src/ImageInputNode.cpp.o
 .PHONY : src/ImageInputNode.o
 
@@ -504,6 +528,9 @@ help:
 	@echo "... src/BrightnessNode.o"
 	@echo "... src/BrightnessNode.i"
 	@echo "... src/BrightnessNode.s"
+	@echo "... src/GrayscaleNode.o"
+	@echo "... src/GrayscaleNode.i"
+	@echo "... src/GrayscaleNode.s"
 	@echo "... src/ImageInputNode.o"
 	@echo "... src/ImageInputNode.i"
 	@echo "... src/ImageInputNode.s"

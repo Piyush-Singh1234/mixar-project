@@ -1,4 +1,5 @@
 #pragma once
+
 #include "Node.h"
 
 class BrightnessNode : public Node {
